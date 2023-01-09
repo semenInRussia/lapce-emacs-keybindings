@@ -1,0 +1,348 @@
+[[keymaps]]
+command = "down"
+when = "!search_focus && !list_focus"
+key = "Ctrl+n"
+
+[[keymaps]]
+command = "up"
+when = "!search_focus && !list_focus && !search_active && !list_active"
+key = "Ctrl+p"
+
+[[keymaps]]
+command = "right"
+key = "Ctrl+f"
+
+[[keymaps]]
+command = "palette.command"
+key = "Alt+x"
+
+[[keymaps]]
+command = "move_line_up"
+mode = "i"
+key = "Alt+p"
+
+[[keymaps]]
+command = "move_line_down"
+mode = "i"
+key = "Alt+n"
+
+[[keymaps]]
+command = "line_start_non_blank"
+mode = "inv"
+key = "Ctrl+a"
+
+[[keymaps]]
+command = "line_start_non_blank"
+mode = "inv"
+key = "Home"
+
+[[keymaps]]
+command = "line_end"
+mode = "inv"
+key = "Ctrl+e"
+
+[[keymaps]]
+command = "line_end"
+mode = "inv"
+key = "End"
+
+[[keymaps]]
+command = "page_up"
+key = "Ctrl+Shift+v"
+
+[[keymaps]]
+command = "page_up"
+key = "PageUp"
+
+[[keymaps]]
+command = "page_down"
+key = "Ctrl+v"
+
+[[keymaps]]
+command = "page_down"
+key = "PageDown"
+
+[[keymaps]]
+command = "next_editor_tab"
+key = "Ctrl+5"
+
+[[keymaps]]
+command = "previous_editor_tab"
+key = "Ctrl+Shift+%"
+
+[[keymaps]]
+command = "previous_editor_tab"
+key = "Ctrl+Shift+Tab"
+
+[[keymaps]]
+command = "goto_definition"
+key = "Alt+."
+
+[[keymaps]]
+command = "next_error"
+key = "Ctrl+Shift+4"
+
+[[keymaps]]
+command = "previous_error"
+key = "Ctrl+$"
+
+[[keymaps]]
+command = "clear_search"
+when = "search_active || search_focus"
+key = "Escape"
+
+[[keymaps]]
+command = "clear_search"
+when = "search_active || search_focus"
+key = "Ctrl+g"
+
+[[keymaps]]
+command = "clear_search"
+mode = "i"
+when = "search_focus || search_active"
+key = "Enter"
+
+[[keymaps]]
+command = "insert_new_line"
+mode = "i"
+when = "!list_focus"
+key = "Ctrl+j"
+
+[[keymaps]]
+command = "search_backward"
+mode = "i"
+when = "search_focus || search_active"
+key = "Ctrl+r"
+
+[[keymaps]]
+command = "search_forward"
+mode = "i"
+when = "search_focus || search_active"
+key = "Ctrl+s"
+
+# find a file in the workspace
+[[keymaps]]
+command = "palette"
+key = "Ctrl+x Ctrl+f"
+
+[[keymaps]]
+command = "toggle_code_lens"
+mode = "i"
+key = "Ctrl+c Ctrl+e"
+
+[[keymaps]]
+command = "clipboard_copy"
+mode = "i"
+key = "Alt+w"
+
+[[keymaps]]
+command = "clipboard_paste"
+mode = "i"
+key = "Ctrl+y"
+
+[[keymaps]]
+command = "undo"
+mode = "i"
+key = "Ctrl+/"
+
+[[keymaps]]
+command = "clipboard_cut"
+mode = "i"
+key = "Ctrl+w"
+
+[[keymaps]]
+command = "word_end_forward"
+mode = "i"
+key = "Alt+f"
+
+[[keymaps]]
+command = "word_end_forward"
+mode = "i"
+key = "Ctrl+ArrowRight"
+
+[[keymaps]]
+command = "word_backward"
+mode = "i"
+key = "Alt+b"
+
+[[keymaps]]
+command = "word_backward"
+mode = "i"
+key = "Ctrl+ArrowLeft"
+
+[[keymaps]]
+command = "toggle_line_comment"
+key = "Alt+;"
+
+[[keymaps]]
+command = "indent_line"
+key = "Ctrl+]"
+
+[[keymaps]]
+command = "outdent_line"
+key = "Ctrl+["
+
+[[keymaps]]
+command = "select_all"
+key = "Ctrl+x h"
+
+[[keymaps]]
+command = "save"
+key = "Ctrl+x Ctrl+s"
+
+[[keymaps]]
+command = "new_file"
+key = "Ctrl+x n"
+
+[[keymaps]]
+command = "open_file"
+key = "Ctrl+x f"
+
+[[keymaps]]
+command = "split_vertical"
+key = "Ctrl+x 2"
+
+[[keymaps]]
+command = "get_completion"
+mode = "i"
+key = "Ctrl+Alt+i"
+
+[[keymaps]]
+command = "document_start"
+key = "Alt+<"
+
+[[keymaps]]
+command = "document_start"
+key = "Ctrl+Home"
+
+[[keymaps]]
+command = "document_end"
+key = "Alt+>"
+
+[[keymaps]]
+command = "document_end"
+key = "Ctrl+End"
+
+# doesn't work yet
+[[keymaps]]
+command = "source_control_commit"
+key = "Ctrl+x g"
+
+[[keymaps]]
+command = "join_lines"
+key = "Alt+Shift+^"
+
+# go to the line with number
+[[keymaps]]
+command = "palette.line"
+key = "Alt+g g"
+
+# disable keybinding `Ctrl+g` with go to the line
+[[keymaps]]
+command = "-pallete.line"
+key = "Ctrl+g"
+
+[[keymaps]]
+command = "search"
+when = "!search_focus"
+key = "Ctrl+s"
+
+[[keymaps]]
+command = "get_signature"
+mode = "i"
+key = "Ctrl+Shift+i"
+
+[[keymaps]]
+command = "show_code_actions"
+key = "Alt+enter"
+
+# should work in a nightly version of the lapce
+[[keymaps]]
+command = "paragraph_backward"
+key = "Alt+}"
+
+# should work in a nightly version of the lapce
+[[keymaps]]
+command = "paragraph_forward"
+key = "Alt+}"
+
+[[keymaps]]
+command = "delete_word_backward"  
+key = "Alt+Backspace"
+
+[[keymaps]]
+command = "delete_word_forward"
+key = "Alt+Delete"
+
+[[keymaps]]
+command = "delete_to_beginning_of_line"
+key = "Ctrl+Shift+k"
+
+# doesn't work
+[[keymaps]]
+command = "delete_to_end_and_insert"
+key = "Ctrl+k"
+
+[[keymaps]]
+command = "list.next"
+when = "list_focus"
+key = "Ctrl+n"
+
+[[keymaps]]
+command = "list.previous"
+when = "list_focus"
+key = "Ctrl+p"
+
+[[keymaps]]
+command = "modal.close"
+when = "list_focus"
+key = "Ctrl+g"
+
+[[keymaps]]
+command = "close_window"
+key = "Ctrl+x Ctrl+c"
+
+[[keymaps]]
+command = "center_of_window"
+key = "Ctrl+l"
+
+[[keymaps]]
+key = "Alt+q"
+command = "format_document"
+
+# the lapce alternative to the emacs `expand-region.el`
+[[keymaps]]
+command = "select_next_syntax_item"
+key = "Ctrl+="
+
+[[keymaps]]
+command = "select_previous_syntax_item"
+key = "Ctrl+- Ctrl+="
+
+# the lapce alternative to the emacs `multiple-cursors.el`
+[[keymaps]]
+command = "select_next_current"
+key = "Ctrl+>"
+
+# this command isn't exists in the lapce
+[[keymaps]]
+command = "select_previous_current"
+key = "Ctrl+<"
+
+# this command isn't provided with `multiple-cursors.el`
+[[keymaps]]
+command = "insert_cursor_above"
+key = "Ctrl+Shift+t"
+
+# this command isn't provided with `multiple-cursors.el`
+[[keymaps]]
+command = "insert_cursor_below"
+key = "Ctrl+t"
+
+[[keymaps]]
+command = "split_close"
+key = "Ctrl+x k"
+
+[[keymaps]]
+command = "-split_close"
+key = "Ctrl+F4"
