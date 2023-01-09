@@ -6,7 +6,7 @@ If you want to use it, then you should copy content of the file with name `keyma
 
 ## Features list
 
-Note that lapce isn't an extensible editor as Emacs and at this moment I can't write own functions, so most of emacs functions isn't provided.  Below placed the list of the {un}supported functions.  Here placed only most imported commands in my opinion, you can do PRs adding your ones
+Note that lapce isn't an extensible editor as Emacs and at this moment I can't write own functions, so most of emacs functions isn't provided.  Below placed the list of the {un}supported functions.  Here placed only most imported commands in my opinion, you can do PRs adding your ones (statistics: 54.84% is done)
 
 | *Emacs command name*         | *supported?* |
 |------------------------------|--------------|
