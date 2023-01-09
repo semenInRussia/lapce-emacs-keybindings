@@ -19,6 +19,11 @@ key = "Alt+x"
 [[keymaps]]
 command = "move_line_up"
 mode = "i"
+key = "Ctrl+x Ctrl+t"
+
+[[keymaps]]
+command = "move_line_up"
+mode = "i"
 key = "Alt+p"
 
 [[keymaps]]
@@ -191,6 +196,10 @@ command = "save"
 key = "Ctrl+x Ctrl+s"
 
 [[keymaps]]
+command = "save_all"
+key = "Ctrl+x s"
+
+[[keymaps]]
 command = "new_file"
 key = "Ctrl+x n"
 
@@ -346,3 +355,4 @@ key = "Ctrl+x k"
 [[keymaps]]
 command = "-split_close"
 key = "Ctrl+F4"
+
